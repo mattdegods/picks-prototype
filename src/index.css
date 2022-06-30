@@ -2,7 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: bingodilan;
+  src: url('/public/fonts/BingoDilanRegular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: opensans;
+  src: url('/public/fonts/OpenSans.ttf') format('truetype');
+}
+
 * {
+  font-family: 'opensans', monospace;
   padding: 0;
   margin: 0;
 }
